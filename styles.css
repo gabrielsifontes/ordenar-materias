@@ -1,0 +1,118 @@
+body { 
+	font-family: Roboto, Arial, sans-serif;
+}
+main {
+	background-color: lightblue;
+	border: 3px solid blue;
+	border-radius: 10px;
+	box-shadow: 0px 2px 11px 0px black;
+	/* margin-top: 2em;
+	margin-left: 3em;
+	margin-right: 3em; */
+	margin: 2em auto;
+	width: 33em;
+}
+.div_main {
+	margin: 10px 10px 10px 10px;
+}
+
+
+.titulo {
+	margin-top: 6px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.explicacion {
+	font-size: 18px;
+	text-indent: 2em;
+}
+
+
+
+input {
+	border-radius: 5px;
+}
+
+
+.estudianteNombre_div {
+	margin-bottom: 10px;
+}
+.estudianteNombre_titulo {
+	font-size: 16px;
+}
+.estudianteNombre_input {
+	height: 25px;
+	font-size: 16px;
+	margin-bottom: 1em;
+}
+.estudianteNombre_mensaje {
+	
+}
+
+.materiaNombre_div {
+	margin-bottom: 10px;
+}
+.materiaNombre_titulo {
+	font-size: 16px;
+}
+.materiaNombre_input {
+	height: 25px;
+	font-size: 16px;
+}
+.materiaNombre_mensaje {
+	
+}
+
+.materiaNota_div {
+	margin-bottom: 10px;
+}
+.materiaNota_titulo {
+	font-size: 16px;
+}
+.materiaNota_input {
+	height: 25px;
+	font-size: 16px;
+	width: 3em;
+}
+.materiaNota_mensaje {
+	
+}
+
+
+
+.boton {
+	border: 1px solid black;
+	border-radius: 15px;
+	margin-top: 10px;
+	color: lightgray;
+	height: 30px;
+	font-size: 16px
+} .boton:hover {
+	border: 1px solid black;
+	color: white;
+}
+
+.anadirMateria_boton {
+	background-color: green;
+	margin-bottom: 1em;
+}
+.eliminarMaterias_boton {
+	background-color: darkred;
+}
+.ordenarMaterias_boton {
+	background-color: blue;
+}
+.guardarMaterias_boton {
+	background-color: green;
+}
+
+.materiasAgregadas_div {
+	background-color: white;
+	border: 1px solid gray;
+	overflow: scroll;
+	word-wrap: normal;
+}
+/* .materiasAgregadas {
+	padding-top: 5px;
+} */

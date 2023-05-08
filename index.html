@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Ordenar materias</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main>
+	<div class='div_main'>
+		<h1 class='titulo'>
+			Inscripción de materias
+		</h1>
+		
+		<p class='explicacion'>
+			Ingrese sus notas académicas.
+		</p>
+		
+		<form class="form">
+			<!-- <fieldset> -->			
+			<label class="estudianteNombre_div">
+				<div class="estudianteNombre_titulo" id="estudianteNombre_titulo">
+					Nombre del estudiante
+				</div>
+				<input class="estudianteNombre_input  input" id="estudianteNombre_input" type="text">
+				<label><span class="estudianteNombre_mensaje" id="estudianteNombre_mensaje" hidden="something"></span></label>
+			</label>
+			
+			<label class="materiaNombre_div">
+				<div class="materiaNombre_titulo" id="materiaNombre_titulo">
+					Nombre de materia
+				</div>
+				<input class="materiaNombre_input  input" id="materiaNombre_input" type="text">
+				<label><span class="materiaNombre_mensaje" id="materiaNombre_mensaje" hidden="something"></span></label>
+			</label>
+			
+			<label class="materiaNota_div">
+				<div class="materiaNota_titulo" id="materiaNota_titulo">
+					Nota de materia
+				</div>
+				<input class="materiaNota_input  input" id="materiaNota_input" type="number" value="">
+				<label><span id="materiaNota_mensaje" hidden="something"></span></label>
+			</label>			
+			<!-- </fieldset> -->
+		</form>
+		
+		<input class="anadirMateria_boton  boton" id="anadirMateria_boton" type="submit" value="Añadir a la lista">
+		
+		<div class="materiasAgregadas_div">
+			<p id="materiasAgregadas"></p>
+		</div>
+		
+		<input class="eliminarMaterias_boton  boton" id="eliminarMaterias_boton" type="submit" value="Eliminar lista" disabled hidden="something">
+		<input class="ordenarMaterias_boton  boton" id="ordenarMaterias_boton" type="submit" value="Ordenar lista: A-Z" disabled hidden="something">
+		<input class="guardarMaterias_boton  boton" id="guardarMaterias_boton" type="submit" value="Enviar" disabled hidden="something">
+		
+		<div id="mensajeParaDesarrollador" hidden="something">
+			<small>Si quiere ver lo que guardó, abra las Herramientas para desarrolladores > Consola.</small>
+		</div>
+	</div>
+</main>
+<script src="scripts.js"></script>
+</body>
+</html>
